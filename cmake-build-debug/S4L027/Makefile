@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe
+CMAKE_COMMAND = C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe
 
 # The command to remove a file.
-RM = C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f
+RM = C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming"
+CMAKE_SOURCE_DIR = H:/JetBrains/Clion/Beginning-CPP-Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug"
+CMAKE_BINARY_DIR = H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/Clion
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E echo "No interactive CMake dialog available."
+	C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/S4L027//CMakeFiles/progress.marks"
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" 0
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/S4L027//CMakeFiles/progress.marks
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/clean
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/preinstall
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/preinstall
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 S4L027/CMakeFiles/S4L027.dir/rule:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/CMakeFiles/S4L027.dir/rule
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S4L027/CMakeFiles/S4L027.dir/rule
 .PHONY : S4L027/CMakeFiles/S4L027.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ S4L027: S4L027/CMakeFiles/S4L027.dir/rule
 
 # fast build rule for target.
 S4L027/fast:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/build
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/build
 .PHONY : S4L027/fast
 
 main.obj: main.cpp.obj
@@ -135,7 +135,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.obj
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.i
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.s
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
