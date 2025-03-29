@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S4L027
+# Install script for directory: H:/JetBrains/Clion/Beginning-CPP-Programming/S4L027
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Beginning_C___Programming")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Beginning_CPP_Programming")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

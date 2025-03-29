@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming
+# Install script for directory: H:/JetBrains/Clion/Beginning-CPP-Programming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Beginning_C___Programming")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Beginning_CPP_Programming")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/S4L027/cmake_install.cmake")
+  include("H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/S4L027/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/S5L045/cmake_install.cmake")
+  include("H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/S5L045/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

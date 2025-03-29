@@ -8,7 +8,7 @@ int age{30};
 int main() {
 
     int price{999};
-    int number{888};
+    int number{666};
     cout << price * number << endl;
 
     cout << age;

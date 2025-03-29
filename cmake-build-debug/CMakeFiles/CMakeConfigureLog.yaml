@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is Clang, found in:
-        C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
+        H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is Clang, found in:
-        C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
+        H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq"
-      binary: "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq"
+      source: "H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u"
+      binary: "H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -72,19 +72,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq'
+        Change Dir: 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u'
         
-        Run Build Command(s): C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4b31c/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_4b31c.dir/build.make CMakeFiles/cmTC_4b31c.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq'
-        Building C object CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj
-        C:/msys64/mingw64/bin/clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7c6a2/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_7c6a2.dir/build.make CMakeFiles/cmTC_7c6a2.dir/build
+        mingw32-make[1]: Entering directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u'
+        Building C object CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj
+        C:/msys64/mingw64/bin/clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
         clang version 20.1.1
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq" -v "-fcoverage-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq" -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -x c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+         "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u -v -fcoverage-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -x c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
         clang -cc1 version 20.1.1 based upon LLVM 20.1.1 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"
@@ -93,24 +93,24 @@ events:
          C:/msys64/mingw64/lib/clang/20/include
          C:/msys64/mingw64/include
         End of search list.
-        Linking C executable cmTC_4b31c.exe
-        C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_4b31c.dir/objects.a
-        C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_4b31c.dir/objects.a @CMakeFiles/cmTC_4b31c.dir/objects1.rsp
-        C:/msys64/mingw64/bin/clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_4b31c.dir/objects.a -Wl,--no-whole-archive -o cmTC_4b31c.exe -Wl,--out-implib,libcmTC_4b31c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Linking C executable cmTC_7c6a2.exe
+        C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_7c6a2.dir/objects.a
+        C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_7c6a2.dir/objects.a @CMakeFiles/cmTC_7c6a2.dir/objects1.rsp
+        C:/msys64/mingw64/bin/clang.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_7c6a2.dir/objects.a -Wl,--no-whole-archive -o cmTC_7c6a2.exe -Wl,--out-implib,libcmTC_7c6a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         clang version 20.1.1
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_4b31c.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_4b31c.dir/objects.a --no-whole-archive --out-implib libcmTC_4b31c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_7c6a2.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_7c6a2.dir/objects.a --no-whole-archive --out-implib libcmTC_7c6a2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.44
-        mingw32-make[1]: Leaving directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq'
+        mingw32-make[1]: Leaving directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -127,26 +127,26 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq']
+        ignore line: [Change Dir: 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4b31c/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_4b31c.dir/build.make CMakeFiles/cmTC_4b31c.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq']
-        ignore line: [Building C object CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:/msys64/mingw64/bin/clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7c6a2/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_7c6a2.dir/build.make CMakeFiles/cmTC_7c6a2.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u']
+        ignore line: [Building C object CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:/msys64/mingw64/bin/clang.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 20.1.1]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq" -v "-fcoverage-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zpw4lq" -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_4b31c.dir/CMakeCCompilerABI.c.obj -x c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u -v -fcoverage-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-w4ft1u -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj.d -MT CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_7c6a2.dir/CMakeCCompilerABI.c.obj -x c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 20.1.1 based upon LLVM 20.1.1 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/usr/include"]
@@ -155,21 +155,21 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/20/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_4b31c.exe]
-        ignore line: [C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_4b31c.dir/objects.a]
-        ignore line: [C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_4b31c.dir/objects.a @CMakeFiles/cmTC_4b31c.dir/objects1.rsp]
-        ignore line: [C:/msys64/mingw64/bin/clang.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_4b31c.dir/objects.a -Wl --no-whole-archive -o cmTC_4b31c.exe -Wl --out-implib libcmTC_4b31c.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Linking C executable cmTC_7c6a2.exe]
+        ignore line: [C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_7c6a2.dir/objects.a]
+        ignore line: [C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_7c6a2.dir/objects.a @CMakeFiles/cmTC_7c6a2.dir/objects1.rsp]
+        ignore line: [C:/msys64/mingw64/bin/clang.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_7c6a2.dir/objects.a -Wl --no-whole-archive -o cmTC_7c6a2.exe -Wl --out-implib libcmTC_7c6a2.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [clang version 20.1.1]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_4b31c.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_4b31c.dir/objects.a --no-whole-archive --out-implib libcmTC_4b31c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_7c6a2.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_7c6a2.dir/objects.a --no-whole-archive --out-implib libcmTC_7c6a2.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_4b31c.exe] ==> ignore
+          arg [cmTC_7c6a2.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -178,10 +178,10 @@ events:
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_4b31c.dir/objects.a] ==> ignore
+          arg [CMakeFiles/cmTC_7c6a2.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_4b31c.dll.a] ==> ignore
+          arg [libcmTC_7c6a2.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -223,9 +223,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/msys64/mingw64/bin/ld" "-v"
@@ -233,14 +233,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m"
-      binary: "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m"
+      source: "H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv"
+      binary: "H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/msys64/mingw64/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -251,19 +251,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m'
+        Change Dir: 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv'
         
-        Run Build Command(s): C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d90fb/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_d90fb.dir/build.make CMakeFiles/cmTC_d90fb.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m'
-        Building CXX object CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj
-        C:/msys64/mingw64/bin/clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c2358/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_c2358.dir/build.make CMakeFiles/cmTC_c2358.dir/build
+        mingw32-make[1]: Entering directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv'
+        Building CXX object CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/msys64/mingw64/bin/clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
         clang version 20.1.1
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
          (in-process)
-         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m" -v "-fcoverage-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m" -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+         "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv -v -fcoverage-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 20.1.1 based upon LLVM 20.1.1 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"
         ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
@@ -293,24 +293,24 @@ events:
          C:/msys64/mingw64/lib/clang/20/include
          C:/msys64/mingw64/include
         End of search list.
-        Linking CXX executable cmTC_d90fb.exe
-        C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d90fb.dir/objects.a
-        C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_d90fb.dir/objects.a @CMakeFiles/cmTC_d90fb.dir/objects1.rsp
-        C:/msys64/mingw64/bin/clang++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_d90fb.dir/objects.a -Wl,--no-whole-archive -o cmTC_d90fb.exe -Wl,--out-implib,libcmTC_d90fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Linking CXX executable cmTC_c2358.exe
+        C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_c2358.dir/objects.a
+        C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_c2358.dir/objects.a @CMakeFiles/cmTC_c2358.dir/objects1.rsp
+        C:/msys64/mingw64/bin/clang++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_c2358.dir/objects.a -Wl,--no-whole-archive -o cmTC_c2358.exe -Wl,--out-implib,libcmTC_c2358.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         clang version 20.1.1
         Target: x86_64-w64-windows-gnu
         Thread model: posix
         InstalledDir: C:/msys64/mingw64/bin
-         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d90fb.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_d90fb.dir/objects.a --no-whole-archive --out-implib libcmTC_d90fb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+         "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_c2358.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_c2358.dir/objects.a --no-whole-archive --out-implib libcmTC_c2358.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.44
-        mingw32-make[1]: Leaving directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m'
+        mingw32-make[1]: Leaving directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -333,26 +333,26 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m']
+        ignore line: [Change Dir: 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d90fb/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_d90fb.dir/build.make CMakeFiles/cmTC_d90fb.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:/msys64/mingw64/bin/clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c2358/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles/cmTC_c2358.dir/build.make CMakeFiles/cmTC_c2358.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:/msys64/mingw64/bin/clang++.exe   -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 20.1.1]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb "-fdebug-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m" -v "-fcoverage-compilation-dir=C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wjm60m" -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_d90fb.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv -v -fcoverage-compilation-dir=H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7slwkv -resource-dir C:/msys64/mingw64/lib/clang/20 -dependency-file CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj.d -MT CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/include/c++/14.2.0 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14.2/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/g++-v14/backward -internal-isystem C:/msys64/mingw64/lib/clang/20/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/usr/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -fcolor-diagnostics -fansi-escape-codes -faddrsig -o CMakeFiles/cmTC_c2358.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 20.1.1 based upon LLVM 20.1.1 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"]
         ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
@@ -382,21 +382,21 @@ events:
         ignore line: [ C:/msys64/mingw64/lib/clang/20/include]
         ignore line: [ C:/msys64/mingw64/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_d90fb.exe]
-        ignore line: [C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_d90fb.dir/objects.a]
-        ignore line: [C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_d90fb.dir/objects.a @CMakeFiles/cmTC_d90fb.dir/objects1.rsp]
-        ignore line: [C:/msys64/mingw64/bin/clang++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_d90fb.dir/objects.a -Wl --no-whole-archive -o cmTC_d90fb.exe -Wl --out-implib libcmTC_d90fb.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Linking CXX executable cmTC_c2358.exe]
+        ignore line: [C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f CMakeFiles/cmTC_c2358.dir/objects.a]
+        ignore line: [C:/msys64/mingw64/bin/llvm-ar.exe qc CMakeFiles/cmTC_c2358.dir/objects.a @CMakeFiles/cmTC_c2358.dir/objects1.rsp]
+        ignore line: [C:/msys64/mingw64/bin/clang++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_c2358.dir/objects.a -Wl --no-whole-archive -o cmTC_c2358.exe -Wl --out-implib libcmTC_c2358.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [clang version 20.1.1]
         ignore line: [Target: x86_64-w64-windows-gnu]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/msys64/mingw64/bin]
-        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_d90fb.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_d90fb.dir/objects.a --no-whole-archive --out-implib libcmTC_d90fb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        link line: [ "C:/msys64/mingw64/bin/ld" -m i386pep -Bdynamic -o cmTC_c2358.exe C:/msys64/mingw64/lib/crt2.o C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/mingw64/x86_64-w64-mingw32/lib -LC:/msys64/mingw64/x86_64-w64-mingw32/mingw/lib -LC:/msys64/mingw64/lib -v --whole-archive CMakeFiles/cmTC_c2358.dir/objects.a --no-whole-archive --out-implib libcmTC_c2358.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/ld] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d90fb.exe] ==> ignore
+          arg [cmTC_c2358.exe] ==> ignore
           arg [C:/msys64/mingw64/lib/crt2.o] ==> obj [C:/msys64/mingw64/lib/crt2.o]
           arg [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -405,10 +405,10 @@ events:
           arg [-LC:/msys64/mingw64/lib] ==> dir [C:/msys64/mingw64/lib]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles/cmTC_d90fb.dir/objects.a] ==> ignore
+          arg [CMakeFiles/cmTC_c2358.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d90fb.dll.a] ==> ignore
+          arg [libcmTC_c2358.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -449,9 +449,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/msys64/mingw64/bin/ld" "-v"
