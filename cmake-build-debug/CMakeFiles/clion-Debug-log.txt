@@ -1,4 +1,4 @@
-C:\Users\excal\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/msys64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/msys64/mingw64/bin/clang.exe -DCMAKE_CXX_COMPILER=C:/msys64/mingw64/bin/clang++.exe -G "Unix Makefiles" -S H:\JetBrains\Clion\Beginning-CPP-Programming -B H:\JetBrains\Clion\Beginning-CPP-Programming\cmake-build-debug
--- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug
+C:\Users\eugen.lin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/msys64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/msys64/mingw64/bin/clang.exe -DCMAKE_CXX_COMPILER=C:/msys64/mingw64/bin/clang++.exe -G "Unix Makefiles" -S "C:\Users\eugen.lin\OneDrive - Legrand France\JetBrains\ClionProjects\Beginning CPP Programming" -B "C:\Users\eugen.lin\OneDrive - Legrand France\JetBrains\ClionProjects\Beginning CPP Programming\cmake-build-debug"
+-- Configuring done (0.8s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug

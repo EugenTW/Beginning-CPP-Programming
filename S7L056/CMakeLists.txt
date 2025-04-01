@@ -1,0 +1,1 @@
+add_executable(S7L056 main.cpp)
