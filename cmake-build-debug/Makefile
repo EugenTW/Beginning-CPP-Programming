@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe
+CMAKE_COMMAND = C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe
 
 # The command to remove a file.
-RM = C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f
+RM = C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = H:/JetBrains/Clion/Beginning-CPP-Programming
+CMAKE_SOURCE_DIR = "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug
+CMAKE_BINARY_DIR = "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debu
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E echo "No interactive CMake dialog available."
+	C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:/Users/excal/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start H:/JetBrains/Clion/Beginning-CPP-Programming/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,69 @@ S4L027/fast:
 .PHONY : S4L027/fast
 
 #=============================================================================
-# Target rules for targets named S5L045
+# Target rules for targets named S6L045
 
 # Build rule for target.
-S5L045: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S5L045
-.PHONY : S5L045
+S6L045: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S6L045
+.PHONY : S6L045
 
 # fast build rule for target.
-S5L045/fast:
-	$(MAKE) $(MAKESILENT) -f S5L045/CMakeFiles/S5L045.dir/build.make S5L045/CMakeFiles/S5L045.dir/build
-.PHONY : S5L045/fast
+S6L045/fast:
+	$(MAKE) $(MAKESILENT) -f S6L045/CMakeFiles/S6L045.dir/build.make S6L045/CMakeFiles/S6L045.dir/build
+.PHONY : S6L045/fast
+
+#=============================================================================
+# Target rules for targets named S6L050
+
+# Build rule for target.
+S6L050: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S6L050
+.PHONY : S6L050
+
+# fast build rule for target.
+S6L050/fast:
+	$(MAKE) $(MAKESILENT) -f S6L050/CMakeFiles/S6L050.dir/build.make S6L050/CMakeFiles/S6L050.dir/build
+.PHONY : S6L050/fast
+
+#=============================================================================
+# Target rules for targets named S7L056
+
+# Build rule for target.
+S7L056: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S7L056
+.PHONY : S7L056
+
+# fast build rule for target.
+S7L056/fast:
+	$(MAKE) $(MAKESILENT) -f S7L056/CMakeFiles/S7L056.dir/build.make S7L056/CMakeFiles/S7L056.dir/build
+.PHONY : S7L056/fast
+
+#=============================================================================
+# Target rules for targets named S7L059
+
+# Build rule for target.
+S7L059: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S7L059
+.PHONY : S7L059
+
+# fast build rule for target.
+S7L059/fast:
+	$(MAKE) $(MAKESILENT) -f S7L059/CMakeFiles/S7L059.dir/build.make S7L059/CMakeFiles/S7L059.dir/build
+.PHONY : S7L059/fast
+
+#=============================================================================
+# Target rules for targets named S12L119
+
+# Build rule for target.
+S12L119: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S12L119
+.PHONY : S12L119
+
+# fast build rule for target.
+S12L119/fast:
+	$(MAKE) $(MAKESILENT) -f S12L119/CMakeFiles/S12L119.dir/build.make S12L119/CMakeFiles/S12L119.dir/build
+.PHONY : S12L119/fast
 
 # Help Target
 help:
@@ -150,8 +202,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... S12L119"
 	@echo "... S4L027"
-	@echo "... S5L045"
+	@echo "... S6L045"
+	@echo "... S6L050"
+	@echo "... S7L056"
+	@echo "... S7L059"
 .PHONY : help
 
 

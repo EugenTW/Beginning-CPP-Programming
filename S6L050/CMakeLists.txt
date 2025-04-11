@@ -1,0 +1,1 @@
+add_executable(S6L050 main.cpp)
