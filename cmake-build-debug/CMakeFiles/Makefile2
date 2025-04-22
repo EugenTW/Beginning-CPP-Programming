@@ -69,6 +69,7 @@ all: S6L050/all
 all: S7L056/all
 all: S7L059/all
 all: S12L119/all
+all: S13L137/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ preinstall: S6L050/preinstall
 preinstall: S7L056/preinstall
 preinstall: S7L059/preinstall
 preinstall: S12L119/preinstall
+preinstall: S13L137/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -87,6 +89,7 @@ clean: S6L050/clean
 clean: S7L056/clean
 clean: S7L059/clean
 clean: S12L119/clean
+clean: S13L137/clean
 .PHONY : clean
 
 #=============================================================================
@@ -103,6 +106,21 @@ S12L119/preinstall:
 # Recursive "clean" directory target.
 S12L119/clean: S12L119/CMakeFiles/S12L119.dir/clean
 .PHONY : S12L119/clean
+
+#=============================================================================
+# Directory level rules for directory S13L137
+
+# Recursive "all" directory target.
+S13L137/all: S13L137/CMakeFiles/S13L137.dir/all
+.PHONY : S13L137/all
+
+# Recursive "preinstall" directory target.
+S13L137/preinstall:
+.PHONY : S13L137/preinstall
+
+# Recursive "clean" directory target.
+S13L137/clean: S13L137/CMakeFiles/S13L137.dir/clean
+.PHONY : S13L137/clean
 
 #=============================================================================
 # Directory level rules for directory S4L027
@@ -186,7 +204,7 @@ S7L059/clean: S7L059/CMakeFiles/S7L059.dir/clean
 S4L027/CMakeFiles/S4L027.dir/all:
 	$(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/depend
 	$(MAKE) $(MAKESILENT) -f S4L027/CMakeFiles/S4L027.dir/build.make S4L027/CMakeFiles/S4L027.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target S4L027"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target S4L027"
 .PHONY : S4L027/CMakeFiles/S4L027.dir/all
 
 # Build rule for subdir invocation for target.
@@ -212,7 +230,7 @@ S4L027/CMakeFiles/S4L027.dir/clean:
 S6L045/CMakeFiles/S6L045.dir/all:
 	$(MAKE) $(MAKESILENT) -f S6L045/CMakeFiles/S6L045.dir/build.make S6L045/CMakeFiles/S6L045.dir/depend
 	$(MAKE) $(MAKESILENT) -f S6L045/CMakeFiles/S6L045.dir/build.make S6L045/CMakeFiles/S6L045.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=5,6 "Built target S6L045"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target S6L045"
 .PHONY : S6L045/CMakeFiles/S6L045.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +256,7 @@ S6L045/CMakeFiles/S6L045.dir/clean:
 S6L050/CMakeFiles/S6L050.dir/all:
 	$(MAKE) $(MAKESILENT) -f S6L050/CMakeFiles/S6L050.dir/build.make S6L050/CMakeFiles/S6L050.dir/depend
 	$(MAKE) $(MAKESILENT) -f S6L050/CMakeFiles/S6L050.dir/build.make S6L050/CMakeFiles/S6L050.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=7,8 "Built target S6L050"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target S6L050"
 .PHONY : S6L050/CMakeFiles/S6L050.dir/all
 
 # Build rule for subdir invocation for target.
@@ -264,7 +282,7 @@ S6L050/CMakeFiles/S6L050.dir/clean:
 S7L056/CMakeFiles/S7L056.dir/all:
 	$(MAKE) $(MAKESILENT) -f S7L056/CMakeFiles/S7L056.dir/build.make S7L056/CMakeFiles/S7L056.dir/depend
 	$(MAKE) $(MAKESILENT) -f S7L056/CMakeFiles/S7L056.dir/build.make S7L056/CMakeFiles/S7L056.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target S7L056"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target S7L056"
 .PHONY : S7L056/CMakeFiles/S7L056.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,7 +308,7 @@ S7L056/CMakeFiles/S7L056.dir/clean:
 S7L059/CMakeFiles/S7L059.dir/all:
 	$(MAKE) $(MAKESILENT) -f S7L059/CMakeFiles/S7L059.dir/build.make S7L059/CMakeFiles/S7L059.dir/depend
 	$(MAKE) $(MAKESILENT) -f S7L059/CMakeFiles/S7L059.dir/build.make S7L059/CMakeFiles/S7L059.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=11,12 "Built target S7L059"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=13,14 "Built target S7L059"
 .PHONY : S7L059/CMakeFiles/S7L059.dir/all
 
 # Build rule for subdir invocation for target.
@@ -334,6 +352,32 @@ S12L119: S12L119/CMakeFiles/S12L119.dir/rule
 S12L119/CMakeFiles/S12L119.dir/clean:
 	$(MAKE) $(MAKESILENT) -f S12L119/CMakeFiles/S12L119.dir/build.make S12L119/CMakeFiles/S12L119.dir/clean
 .PHONY : S12L119/CMakeFiles/S12L119.dir/clean
+
+#=============================================================================
+# Target rules for target S13L137/CMakeFiles/S13L137.dir
+
+# All Build rule for target.
+S13L137/CMakeFiles/S13L137.dir/all:
+	$(MAKE) $(MAKESILENT) -f S13L137/CMakeFiles/S13L137.dir/build.make S13L137/CMakeFiles/S13L137.dir/depend
+	$(MAKE) $(MAKESILENT) -f S13L137/CMakeFiles/S13L137.dir/build.make S13L137/CMakeFiles/S13L137.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" --progress-num=3,4 "Built target S13L137"
+.PHONY : S13L137/CMakeFiles/S13L137.dir/all
+
+# Build rule for subdir invocation for target.
+S13L137/CMakeFiles/S13L137.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 S13L137/CMakeFiles/S13L137.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/cmake-build-debug/CMakeFiles" 0
+.PHONY : S13L137/CMakeFiles/S13L137.dir/rule
+
+# Convenience name for target.
+S13L137: S13L137/CMakeFiles/S13L137.dir/rule
+.PHONY : S13L137
+
+# clean rule for target.
+S13L137/CMakeFiles/S13L137.dir/clean:
+	$(MAKE) $(MAKESILENT) -f S13L137/CMakeFiles/S13L137.dir/build.make S13L137/CMakeFiles/S13L137.dir/clean
+.PHONY : S13L137/CMakeFiles/S13L137.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

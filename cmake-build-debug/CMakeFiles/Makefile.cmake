@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/eugen.lin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/CMakeLists.txt"
   "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S12L119/CMakeLists.txt"
+  "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S13L137/CMakeLists.txt"
   "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S4L027/CMakeLists.txt"
   "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S6L045/CMakeLists.txt"
   "C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/Beginning CPP Programming/S6L050/CMakeLists.txt"
@@ -59,6 +60,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "S7L056/CMakeFiles/CMakeDirectoryInformation.cmake"
   "S7L059/CMakeFiles/CMakeDirectoryInformation.cmake"
   "S12L119/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "S13L137/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -69,4 +71,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "S7L056/CMakeFiles/S7L056.dir/DependInfo.cmake"
   "S7L059/CMakeFiles/S7L059.dir/DependInfo.cmake"
   "S12L119/CMakeFiles/S12L119.dir/DependInfo.cmake"
+  "S13L137/CMakeFiles/S13L137.dir/DependInfo.cmake"
   )
