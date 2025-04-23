@@ -1,2 +1,3 @@
 ## Beginning-CPP-Programming
-This repository contains my personal C++ translation of the Udemy course “Embedded Systems Bare-Metal Programming Ground Up™ (STM32)”, originally provided in C.
+
+This repository contains my personal learning of the Udemy course “Beginning C++ Programming - From Beginner to Beyond”.
